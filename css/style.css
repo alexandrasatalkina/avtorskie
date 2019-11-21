@@ -6,8 +6,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header{
+    position: relative;
+    z-index: 2;
     padding-top: 20px;
-    box-shadow: 0 5px 30px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px 0px rgba(192, 193, 192, 1);
     padding-bottom: 25px;
 }
 footer {
@@ -34,6 +36,7 @@ ul li {
 }
 i {
     color: #777777;
+    margin-right: 54px;
 }
 .social {
     padding: 25px;
@@ -43,29 +46,41 @@ i {
     border-bottom: 1px solid #ebebeb;
 }
 .menu_additional {
-    margin-top: 32px;
-    margin-bottom: 30px;
+ margin-top: 15px;
 }
+.border-menu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.wrapper-footer span {
+    font-weight: bold;
+}
+.bd-example {
+    position: relative;
+    z-index: 1;
+}
+
 .masonry {
     margin: 1.5em 0;
     padding: 0;
-    column-gap: 1.5em; /* Общее расстояние между колонками */
+    column-gap: 30px; /* Общее расстояние между колонками */
     font-size: .85em;
-    -moz-column-gap: 1.5em; /* Расстояние между колонками для Firefox */
-    -webkit-column-gap: 1.5em; /* Расстояние между колонками  для Safari, Chrome и iOS */
+    -moz-column-gap: 30px; /* Расстояние между колонками для Firefox */
+    -webkit-column-gap: 30px; /* Расстояние между колонками  для Safari, Chrome и iOS */
 }
- 
+
 /* Элементы в виде плиток с содержанием */
 .item {
+    margin-bottom: 30px;
     display: inline-block;
     background: #fff;
-    padding: 1em;
-    margin: 0 0 1.5em;
     width: 100%;
     box-sizing: border-box; /* Изменения алгоритма расчета ширины и высоты элемента.*/
     -moz-box-sizing: border-box; /* Для Firefox */ 
     -webkit-box-sizing: border-box; /* Для Safari, Chrome, iOS иAndroid */ 
-    box-shadow: 2px 2px 4px 0 #ccc; /* Внешняя тень плиток */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
  
 /* Стили картинок, видое и фреймов внутри адаптивных плиток */
@@ -75,18 +90,6 @@ height: auto;
 display: block;
 }
  
-/* Стили ссылок внутри плиток */
-.item a {
-text-decoration: none;
-color: #359CC6;
-margin: 0 10px;
-}
- 
-/* Стили ссылок при наведении */
-.item a:hover {
-color: #E88F00;    
-border-bottom: 1px dotted #9F1D35;
-}
  
 /* Медиа-запросы для различных размеров адаптивного макета */
 @media only screen and (min-width: 400px) {
@@ -115,9 +118,9 @@ border-bottom: 1px dotted #9F1D35;
  
 @media only screen and (min-width: 1100px) {
     .masonry {
-        -moz-column-count: 5;
-        -webkit-column-count: 5;
-        column-count: 5;
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
     }
 }
  
