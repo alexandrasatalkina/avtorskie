@@ -42,6 +42,9 @@ li img {
     display: inline-block;
     margin-left: 18px;
 }
+input {
+    width: 100%;
+}
 .line{
     width: 10px;
     margin-top: 13px;
@@ -71,14 +74,6 @@ li img {
     z-index: 1;
 }
 
-.masonry {
-    margin: 1.5em 0;
-    padding: 0;
-    column-gap: 30px; /* Общее расстояние между колонками */
-    font-size: .85em;
-    -moz-column-gap: 30px; /* Расстояние между колонками для Firefox */
-    -webkit-column-gap: 30px; /* Расстояние между колонками  для Safari, Chrome и iOS */
-}
 .carousel-indicators li {
     width: 14px;
     height: 14px;
@@ -115,10 +110,8 @@ li img {
     border: 1px solid #fff;
     border-radius: 100%;
     width: 44px;
-    height: 44px;
-    
+    height: 44px;  
   }
-
   .carousel-control-next-icon:hover {
     background: #000;
     border: none;
@@ -127,7 +120,14 @@ li img {
       background: #000;
       border: none;
   }
-
+  .masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    column-gap: 30px; /* Общее расстояние между колонками */
+    font-size: .85em;
+    -moz-column-gap: 30px; /* Расстояние между колонками для Firefox */
+    -webkit-column-gap: 30px; /* Расстояние между колонками  для Safari, Chrome и iOS */
+}
 /* Элементы в виде плиток с содержанием */
 .item {
     margin-bottom: 30px;
@@ -146,8 +146,138 @@ max-width: 100%;
 height: auto;
 display: block;
 }
- 
- 
+#about {
+    background-image: url(../img/about/heading.png);   
+}
+.heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+}
+.heading h5 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+    letter-spacing: 2px;
+    padding-left: 33px;
+    padding-right: 36px;
+}
+.heading p{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    padding-left: 13px;
+}
+.ourstory {
+    background: #fafafa;
+    padding-top: 73px;
+}
+.ourstory  h3{
+    padding-top: 9px;
+    color: #404040;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.ourstory p {
+    padding-top: 30px;
+    color: #777777;
+    font-size: 14px;
+    line-height: 2rem;
+}
+.input_heading{
+    padding-top: 15px;
+    font-weight: bold;
+}
+.team {
+    background: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.team_heading {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.team_heading h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: #000;
+    margin: 0 auto;
+    padding-bottom: 41px;
+}
+.team_heading p {
+    line-height: 2rem;
+    color: #777777;
+    font-size: 14px;
+    padding-bottom: 70px;
+}
+.team_main h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #041608;
+    padding-top: 33px;
+    padding-left: 38px;
+    padding-right: 43px;
+    padding-bottom: 12px;
+    background: #fff;
+    margin-bottom: 0px;
+}
+.team_main h5 {
+    font-size: 16px;
+    color: #777777;
+    padding-left: 38px;
+    background: #fff;
+    margin-bottom: 0px;
+    padding-right: 43px;
+    padding-bottom: 23px;
+}
+.team_main p {
+    font-size: 14px;
+    color: #777777;
+    padding-left: 38px;
+    padding-bottom: 33px;
+    background: #fff;
+    margin-bottom: 0px;
+    padding-right: 43px;
+}
+input[type='range'] {
+    height: 10px;
+    -webkit-appearance: none;
+    background-color: #ebebeb;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 2px;
+    -webkit-appearance: none;
+    color: #a1a1a1;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 13px;
+    height: 13px;
+    -webkit-appearance: none;
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: #a1a1a1; 
+}
+input[type="range"]::-moz-range-track {  
+    background-color: #ebebeb;
+}
+input[type="range"]::-ms-fill-lower {
+    background-color:#a1a1a1;  
+}
+input[type="range"]::-ms-fill-upper {  
+    background-color: #ebebeb;
+}
 /* Медиа-запросы для различных размеров адаптивного макета */
 @media only screen and (min-width: 400px) {
     .masonry {
