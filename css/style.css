@@ -38,6 +38,15 @@ i {
     color: #777777;
     margin-right: 54px;
 }
+li img {
+    display: inline-block;
+    margin-left: 18px;
+}
+.line{
+    width: 10px;
+    margin-top: 13px;
+    
+}
 .social {
     padding: 25px;
     margin-top: 45px;
@@ -70,6 +79,54 @@ i {
     -moz-column-gap: 30px; /* Расстояние между колонками для Firefox */
     -webkit-column-gap: 30px; /* Расстояние между колонками  для Safari, Chrome и iOS */
 }
+.carousel-indicators li {
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    opacity: 1;
+    border-top: none;
+    border-bottom: none;
+    
+  }
+  .carousel-indicators .active {
+    box-sizing: border-box;
+    background: #fff;
+    border: 4px solid #000;
+  }
+  .carousel-caption p{
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #000;
+  }
+  .carousel-caption h5{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #000;
+}
+  .carousel-caption {
+    padding-left: 15%;
+    padding-right: 15%;
+    bottom: 50%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    
+  }
+
+  .carousel-control-next-icon:hover {
+    background: #000;
+    border: none;
+  }
+  .carousel-control-prev-icon:hover{
+      background: #000;
+      border: none;
+  }
 
 /* Элементы в виде плиток с содержанием */
 .item {
