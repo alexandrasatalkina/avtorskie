@@ -162,12 +162,14 @@ display: block;
     background-size:  100% 100%;
 }
 .heading,
-.projects {
+.projects,
+.heading-section {
     padding-top: 8%;
     padding-bottom: 8%;
 }
 .heading h5,
-.projects h5 {
+.projects h5,
+.heading-section h5 {
     font-size: 46px;
     text-transform: uppercase;
     color: #fff;
@@ -178,7 +180,8 @@ display: block;
 }
 
 .heading p,
-.projects p{
+.projects p,
+.heading-section p{
     font-size: 18px;
     text-transform: uppercase;
     color: #000;
@@ -483,6 +486,16 @@ input[type="range"]::-ms-fill-upper {
     display: flex;
     justify-content: space-between;
 }
+/* Section BLOG */
+.heading-section {
+    background: url(../img/news/base.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
 /* Медиа-запросы для различных размеров адаптивного макета */
 @media only screen and (min-width: 400px) {
     .masonry {
