@@ -496,7 +496,74 @@ input[type="range"]::-ms-fill-upper {
 .sidebar {
     display: inline;
 }
+#main {
+    padding-top: 71px;
+    margin-bottom: 100px;
+    background: #fafafa;
+}
 
+.block {
+    background: #fff;
+    margin-bottom: 26px;
+    position: relative;
+}
+.block h4 {
+    font-size: 14px;
+}
+.block p {
+    font-size: 10px;
+    counter-reset: #b2b2b2;
+}
+.block h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #ebebeb;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    letter-spacing: 4px;
+}
+.block h3::after{
+    content: ''; 
+    position: absolute;
+    top: 49px;
+    left: 50%;
+    border: 7px solid transparent;
+    border-top: 7px solid #ebebeb;   
+}
+.search {
+    margin-bottom: 26px;
+    background: #fff;
+    height: 60px;
+    padding-left: 29px;
+}
+.block_item {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.tags {
+    font-size: 11px;
+}
+.tags_item {
+    padding-top: 9px;
+    padding-bottom: 11px;
+    border: 1px solid #ebebeb;
+    margin: 6px;
+}
+input {
+    outline: none;
+    border: none;
+}
+.fa {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    margin-right: 13px;
+    color: #fff;
+    background: #999999;
+    padding: 10px;
+    border-radius: 2px;
+}
 
 
 /* Медиа-запросы для различных размеров адаптивного макета */
@@ -529,6 +596,25 @@ input[type="range"]::-ms-fill-upper {
         -moz-column-count: 3;
         -webkit-column-count: 3;
         column-count: 3;
+    }
+    .masonry_2 {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    .masonry_3 {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+    .item_3 {
+    margin-bottom: 5px;
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box; /* Изменения алгоритма расчета ширины и высоты элемента.*/
+    -moz-box-sizing: border-box; /* Для Firefox */ 
+    -webkit-box-sizing: border-box; /* Для Safari, Chrome, iOS иAndroid */ 
     }
 }
  
