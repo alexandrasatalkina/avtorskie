@@ -640,6 +640,24 @@ input[type="range"]::-ms-fill-upper {
     padding-bottom: 14px;
     outline: none;
 }
+.contact_one  input{
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+    margin-bottom: 32px;
+}
+.contact_two textarea {
+    height: 148px;
+    margin-bottom: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-top: 16px;
+    outline: none;
+}
 textarea {
     width: 100%;
 }
@@ -655,10 +673,31 @@ textarea {
     padding-top: 15px;
     padding-bottom: 17px;
 }
+.post_btn_contacts p {
+    color: #fff;
+    background: #000;
+    text-transform:  uppercase;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 59px;
+    padding-right: 52px;
+}
 .post_btn {
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
+}
+.post_btn:hover{
+    cursor: pointer;
+}
+.post_btn_contacts {
+    cursor: pointer;
+}
+
+.post_btn_contacts {
+    display: flex;
+    justify-content: flex-start;
 }
 .message textarea {
     height: 112px;
@@ -672,7 +711,71 @@ textarea {
 .post_main {
     background: #fafafa;
 }
+.contacts {
+    padding-top: 80px;
+    background: #fafafa;
+}
+.map {
+    padding-top: 80px;
+    padding-bottom: 69px;
+    background: #fafafa;
+}
+.values {
+    background: #fafafa;
+}
+iframe {
+    height: 450px;
+}
+.values_title {
+    display: flex;
+    justify-content: center;
+}
+.values_title  h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+.values_title p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+.values h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 26px;
+    margin-bottom: 42px;
+}
+.values p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 30px;
+}
+.contacts h3 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.contacts_info p {
+    font-size: 16px;
+    color: #777777;
+}
 
+.contacts_info span {
+    font-weight: bold;
+}
+.contact_heading::after {
+    content: "";
+    display: block;
+    background: #000;
+    width: 60px;
+    height: 1px;
+    margin-bottom: 44px;
+}
 /* Медиа-запросы для различных размеров адаптивного макета */
 @media only screen and (min-width: 400px) {
     .masonry {
