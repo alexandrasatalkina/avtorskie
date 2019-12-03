@@ -551,11 +551,11 @@ input[type="range"]::-ms-fill-upper {
     border: 1px solid #ebebeb;
     margin: 6px;
 }
-input {
+.sidebar input {
     outline: none;
     border: none;
 }
-.fa {
+.sidebar .fa {
     margin-top: 11px;
     margin-bottom: 11px;
     margin-right: 13px;
@@ -564,7 +564,114 @@ input {
     padding: 10px;
     border-radius: 2px;
 }
-
+/* Страница POST */
+.post {
+    padding-top: 68px;
+}
+.post h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: 3px;
+}
+.post_det {
+    display: flex;
+    justify-content: center;
+    color: #777777;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.post_img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.post_text {
+    font-size: 14px;
+    color: #777777;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 63px;
+}
+.post_text h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #777777;
+}
+.post_bold p {
+    font-weight:  bold;
+    font-style: italic;
+    font-size: 18px;
+    color: #777777;
+    padding-bottom: 33px;
+    padding-top: 21px;
+    padding-right: 42px;
+    padding-left: 32px;
+    margin-bottom: 11px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-left: 4px solid #c8c8c8;
+}
+.post_bold {
+    display: flex;
+    justify-content: center;
+}
+.input_title {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#000;
+    margin-bottom: 50px;
+}
+.input_item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+.input_item input {
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+}
+textarea {
+    width: 100%;
+}
+.message {
+    display: flex;
+    justify-content: center;
+}
+.post_btn p {
+    color: #fff;
+    background: #000;
+    text-transform:  uppercase;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+.post_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.message textarea {
+    height: 112px;
+    margin-bottom: 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-top: 16px;
+    outline: none;
+}
+.post_main {
+    background: #fafafa;
+}
 
 /* Медиа-запросы для различных размеров адаптивного макета */
 @media only screen and (min-width: 400px) {
