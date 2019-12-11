@@ -788,12 +788,13 @@ iframe {
     margin-bottom: 44px;
 }
 /* Медиа-запросы для различных размеров адаптивного макета */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 320px) {
     .masonry {
         -moz-column-count: 2;
         -webkit-column-count: 2;
         column-count: 2;
     }
+  
 }
  
 @media only screen and (min-width: 700px) {
@@ -802,6 +803,7 @@ iframe {
         -webkit-column-count: 3;
         column-count: 3;
     }
+   
 }
  
 @media only screen and (min-width: 900px) {
@@ -810,6 +812,7 @@ iframe {
         -webkit-column-count: 4;
         column-count: 4;
     }
+   
 }
  
 @media only screen and (min-width: 1100px) {
@@ -837,10 +840,12 @@ iframe {
     -moz-box-sizing: border-box; /* Для Firefox */ 
     -webkit-box-sizing: border-box; /* Для Safari, Chrome, iOS иAndroid */ 
     }
+   
 }
  
 @media only screen and (min-width: 1280px) {
     .wrapper {
         width: 1260px;
     }
+   
 }
