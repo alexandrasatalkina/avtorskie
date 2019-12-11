@@ -29,6 +29,7 @@ a:hover {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 
 ul li {
@@ -162,6 +163,10 @@ display: block;
 #about {
     background-image: url(../img/about/heading.png);  
     background-size:  100% 100%;
+    box-shadow: 0px 0px 10px 0px rgba(192, 193, 192, 1);
+    position: relative;
+    z-index: 2;
+
 }
 .heading,
 .projects,
@@ -196,6 +201,7 @@ display: block;
 .ourstory {
     background: #fafafa;
     padding-top: 73px;
+    padding-bottom: 80px;
 }
 .ourstory  h3{
     padding-top: 9px;
@@ -726,6 +732,7 @@ textarea {
 }
 .values {
     background: #fafafa;
+    padding-bottom: 50px;
 }
 iframe {
     height: 450px;
