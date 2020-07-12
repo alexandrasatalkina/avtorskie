@@ -160,13 +160,12 @@ max-width: 100%;
 height: auto;
 display: block;
 }
-#about {
+#about, #contact {
     background-image: url(../img/about/heading.png);  
     background-size:  100% 100%;
     box-shadow: 0px 0px 10px 0px rgba(192, 193, 192, 1);
     position: relative;
-    z-index: 2;
-
+    z-index: 0;
 }
 .heading,
 .projects,
@@ -180,13 +179,18 @@ display: block;
     font-size: 36px;
     text-transform: uppercase;
     color: #fff;
-    background: #777;
+    /*background: #777;*/
     letter-spacing: 2px;
     padding-left: 33px;
     padding-right: 36px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
+mark {
+    background: #777;
+    color: #fff; 
+}
+
 
 .heading p,
 .projects p,
@@ -508,7 +512,6 @@ input[type="range"]::-ms-fill-upper {
 }
 #main {
     padding-top: 71px;
-    margin-bottom: 100px;
     background: #fafafa;
 }
 
@@ -794,6 +797,10 @@ iframe {
         -webkit-column-count: 2;
         column-count: 2;
     }
+    .propose {
+        
+    }
+ 
   
 }
  
@@ -816,6 +823,9 @@ iframe {
 }
  
 @media only screen and (min-width: 1100px) {
+    .container {
+        width: 70%;
+    }
     .masonry {
         -moz-column-count: 3;
         -webkit-column-count: 3;
@@ -841,9 +851,11 @@ iframe {
     -webkit-box-sizing: border-box; /* Для Safari, Chrome, iOS иAndroid */ 
     }
    
+   
 }
  
 @media only screen and (min-width: 1280px) {
+    
     .wrapper {
         width: 1260px;
     }

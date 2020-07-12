@@ -17,10 +17,24 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-3 col-md-offset-1">
+                <div class="col-5 d-sm-none">
+                  <nav>
+                    <button class="hamburger">&#9776;</button>
+                    <button class="cross">&#735;</button>
+                    <div class="submenu">
+                        <ul>
+                          <li><a href="index.html">Главная</a></li>
+                          <li><a href="about.html">О нас</a></li>
+                          <li><a href="news.html">Новинки</a></li>
+                          <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </div> 
+                  </nav>
+                </div>
+                <div class="col-md-3 col-7 col-md-offset-1 mt-2">
                     <img src="img/logo.png" alt="">
                 </div>
-                <div class="col-md-9 col-5">
+                <div class="col-md-9">
                     <nav id="basic_menu">
                         <ul class="main_menu d-flex ">
                             <li class="menu-item active"><a href="index.html">Главная</a></li>
@@ -29,51 +43,55 @@
                             <li class="menu-item"><a href="contact.html">Контакты</a></li>
                         </ul>
                     </nav>
-
-
-                    <nav>
-                      <button class="hamburger">&#9776;</button>
-                      <button class="cross">&#735;</button>
-                      <div class="submenu">
-                          <ul>
-                              <a href="index.html"><li>Главная</li></a>
-                              <a href="about.html"><li>О нас</li></a>
-                              <a href="news.html"><li>Новинки</li></a>
-                              <a href="contact.html"><li>Контакты</li></a>
-                          </ul>
-                      </div> 
-                    </nav>
-
                 </div>
             </div>
           </div>
       </header>
 
+      <!--================MODALS=============-->
+      <div id="exampleModal" class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" > 
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="modalText">
+                <p>Modal body text goes here.</p>
+                <p>Цена: 2100 руб.</p>
+                <img id="modalImage" src="img/juvelir/1.png">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#orderModal">Заказать</button>
+              </div>
+            </div>
+        </div>
+      </div>
       
-      <div id="exampleModal" class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" >
-        
-        
+      <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="modalTitle">Modal title</h5>
+              <h5 class="modal-title">Оставьте заказ и мы свяжемся с вами!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body" id="modalText">
-              <p>Modal body text goes here.</p>
-              <p>Цена: 2100 руб.</p>
-              <img id="modalImage" src="img/juvelir/1.png">
+            <div class="modal-body">
+              ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Заказать</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Отправить</button>
             </div>
           </div>
         </div>
       </div>
-      
+      <!--=============================-->
 
+      <!--===========CAROUSEL=============-->
       <section>
           <div class="bd-example">
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -116,12 +134,14 @@
               </div>
             </div>
       </section>
+      <!--===============================-->
+
       <section>
           
             <div class="container">
                 <div class="row d-flex justify-content-center">
                   <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb"  style="font-size: 23px;">
+                    <ol class="breadcrumb">
                       <li id="all" class="breadcrumb-item active"><a href="#">Все</a></li>
                       <li id="earring"  class="breadcrumb-item"><a href="#">Серьги</a></li>
                       <li id="braslet" class="breadcrumb-item"><a href="#">Браслеты</a></li>
@@ -133,7 +153,7 @@
                 </div>
               
               <div class="masonry">
-                  <div id="one" class="item earring"><a href="#" ><img src="img/juvelir/1.png" onclick="openModal('1')" class="img-fluid"  alt=""></div></a>
+                  <div class="item earring"><a href="#" ><img src="img/juvelir/1.png" onclick="openModal('1')" class="img-fluid"  alt=""></div></a>
                   <div class="item hear"><a href="#" ><img src="img/juvelir/3.png" onclick="openModal('3')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg"  alt=""></div></a>
                   <div class="item earring"><a href="#" ><img src="img/juvelir/4.png" onclick="openModal('4')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg"  alt=""></div></a>
                   <div class="item earring"><a href="#"><img src="img/juvelir/9.png" onclick="openModal('9')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
@@ -178,8 +198,7 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap.js"></script> 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-      <script src="js/humburger_js/main.js"></script>
-      <script src="js//humburger_js/hamburger.js"></script>
+      <script src="js/hamburger.js"></script>
       <script src="js/modalProducts.js"></script>
       <script>
       $('.carousel').carousel({
@@ -230,13 +249,5 @@
           $('.hear').show();
         });
       </script>
-      <!--<script>
-        $('#one').click(function(){
-          jQuery.noConflict(); 
-          $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Получилось!!!!</h5>');        
-          $('#exampleModal').modal('show');
-
-        });     
-      </script>-->
   </body>
 </html>

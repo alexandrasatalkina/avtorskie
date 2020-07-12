@@ -79,54 +79,78 @@ function openModal(param) {
             $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/15.png"></div>');            
             $('#exampleModal').modal('show');
             break;
-            case '16':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/16.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '17':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/17.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '18':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/18.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '19':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/19.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '20':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/20.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '21':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/21.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '22':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/22.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
-            case '23':
-                jQuery.noConflict(); 
-                $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
-                $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/23.png"></div>');            
-                $('#exampleModal').modal('show');
-                break;
+        case '16':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/16.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '17':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/17.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '18':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/18.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '19':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/19.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '20':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/20.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '21':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/21.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '22':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/22.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '23':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Гребень АРТ №1146</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из позалоченой проволоки и жемчуга. очень нежно и утонченно.</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/juvelir/23.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '8.2':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Серьги АРТ № 1206</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Красота страшная сила или нет? Материалы:  акрил, чешский бисер, мононить, металлическая фурнитура, основы для серёг,  жемчуг, фурнитура</p><p>Цена: 1900 руб.</p><img id="modalImage" src="img/projects/8.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '4.2':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Браслет АРТ № 1205</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Поднимет настроение не только в праздник! Сделан из жемчуга речного, жемчуга майорка, цирконов, позолочение 525 пробы</p><p>Цена: 2300 руб.</p><img id="modalImage" src="img/projects/4.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '5.2':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Шпильки для волос АРТ № 1203</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Новинка порадует девушек с самым изысканным вкусом. Шпильки выполнены из жемчуга речного, ювелирного стекла, металла, бусин, посеребренной проволоки.</p><p>Цена: 1350 руб.</p><img id="modalImage" src="img/projects/5.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
+        case '6.2':
+            jQuery.noConflict(); 
+            $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Венок для волос АРТ № 1204</h5>');     
+            $('#modalText').html('<div class="modal-body" id="modalText"><p>Венок сделан из стеклянных бусин и бисера. Новинка для утонченных особ. </p><p>Цена: 1200 руб.</p><img id="modalImage" src="img/projects/6.png"></div>');            
+            $('#exampleModal').modal('show');
+            break;
         default:
             break;
     }

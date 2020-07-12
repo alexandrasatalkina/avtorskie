@@ -4,9 +4,7 @@ body {
 header {
     box-shadow: 0px 20px 20px 0px rgba(216, 216, 216, 0.1)
 }
-.container {
-    width: 55%;
-}
+
 .main_menu {
     height: 4.2%;
 }
@@ -299,9 +297,7 @@ li h3 {
     }
 }
 @media only screen and (min-width: 971px) and (max-width: 1366px) {
-.container {
-    width: 70%;
-}
+
 /*humbureger!!!*/
 .hamburger{
     display: none;
@@ -310,9 +306,6 @@ li h3 {
 
 @media only screen and (min-width: 768px) and (max-width: 970px) {
 
-    .container {
-        width: 100%;
-    }
     .diagnost{
         width: 200px;
     }
@@ -350,12 +343,9 @@ li h3 {
 .hamburger{
   background:none;
   top:0;
-  right:0;
-  line-height:45px;
-  padding:5px 15px 0px 15px;
   color:#999;
   border:0;
-  font-size:1.4em;
+  font-size: 30px;
   font-weight:bold;
   cursor:pointer;
   outline:none;
@@ -364,12 +354,9 @@ li h3 {
 .cross{
   background:none;
   top:0px;
-  right:0;
-  padding:7px 15px 0px 15px;
   color:#999;
   border:0;
-  font-size:3em;
-  line-height:65px;
+  font-size:30px;
   font-weight:bold;
   cursor:pointer;
   outline:none;
@@ -391,30 +378,30 @@ li h3 {
     list-style-image: none;
 }
 .submenu li {
+    width: 100%;
     display: block;   
-    padding:15px 0 15px 0; 
+    padding:8px 8px 8px 10px; 
     border-bottom:#dddddd 1px solid;
 }
-.submenu li:hover{
-    display: block;    
-    background:#ffffff; 
-    padding:15px 0 15px 0; 
-    border-bottom:#dddddd 1px solid;
+.submenu li:hover{   
+    background:#ffffff;
 }
 .submenu ul li a { 
     text-decoration:none;  
     margin: 0px; 
-    color:#666;}
+    color:#666;
+}
 .submenu ul li a:hover {  
-    color: #666; 
+    color:#000;
     text-decoration:none;
 }
 .submenu a{
     text-decoration:none; 
     color:#666;
 }
-.submenu a:hover{
-    text-decoration:none; 
-    color:#666;
+/*breadcrumb*/
+.breadcrumb {
+    font-size: 12px;
 }
+
 }
