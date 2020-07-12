@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Авторские украшения</title>
+      <title>Украшения Лиана</title>
       <!--==================LINKS==================-->
       <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css">
       <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -14,55 +14,66 @@
       <!--===============SCRIPTS===================-->
   </head>
   <body>
-      <header>
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-3 col-3 col-md-offset-1">
-                      <img src="img/logo.png" alt="">
-                  </div>
-                  <div class="col-md-8 col-5">
-                      <nav id="basic_menu">
-                          <ul class="main_menu d-flex ">
-                              <li class="menu-item active"><a href="index.html">Главная</a></li>
-                              <li class="menu-item"><a href="about.html">О нас</a></li>
-                              <li class="menu-item"><a href="projects.html">Украшения</a></li>
-                              <li class="menu-item"><a href="news.html">Новинки</a></li>
-                              <li class="menu-item"><a href="contact.html">Контакты</a></li>
-                          </ul>
-                      </nav>
-
-
-                      <nav>
-                        <button class="hamburger">&#9776;</button>
-                        <button class="cross">&#735;</button>
-                        <div class="submenu">
-                            <ul>
-                                <a href="#"><li>Услуги и цены</li></a>
-                                <a href="#"><li>Акции</li></a>
-                                <a href="#"><li>Отзывы</li></a>
-                                <a href="#"><li>О нас</li></a>
-                                <a href="#"><li>Контакты</li></a>
-                            </ul>
-                        </div> 
-                        <ul class="menu d-flex justify-content-left list-unstyled">
-                            <li class="menu_item">
-                                <a class="mr-3 ml-2 item_color" href="#">Услуги и цены</a>
-                                <a class="mr-3 item_color" href="#">Акции</a>
-                                <a class="mr-3 item_color" href="#">Отзывы</a>
-                                <a class="mr-3 item_color" href="#">О нас</a>
-                                <a class="mr-3 item_color" href="#">Контакты</a>
-                            </li>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-3 col-md-offset-1">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="col-md-9 col-5">
+                    <nav id="basic_menu">
+                        <ul class="main_menu d-flex ">
+                            <li class="menu-item active"><a href="index.html">Главная</a></li>
+                            <li class="menu-item"><a href="about.html">О нас</a></li>
+                            <li class="menu-item"><a href="news.html">Новинки</a></li>
+                            <li class="menu-item"><a href="contact.html">Контакты</a></li>
                         </ul>
-                      </nav>
+                    </nav>
 
 
-                  </div>
-                  <div class="col-md-1 col-1"><i class="fa fa-search"></i></div>
-              </div>
+                    <nav>
+                      <button class="hamburger">&#9776;</button>
+                      <button class="cross">&#735;</button>
+                      <div class="submenu">
+                          <ul>
+                              <a href="index.html"><li>Главная</li></a>
+                              <a href="about.html"><li>О нас</li></a>
+                              <a href="news.html"><li>Новинки</li></a>
+                              <a href="contact.html"><li>Контакты</li></a>
+                          </ul>
+                      </div> 
+                    </nav>
+
+                </div>
             </div>
+          </div>
+      </header>
 
+      
+      <div id="exampleModal" class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" >
+        
+        
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="modalText">
+              <p>Modal body text goes here.</p>
+              <p>Цена: 2100 руб.</p>
+              <img id="modalImage" src="img/juvelir/1.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
 
-        </header>
       <section>
           <div class="bd-example">
               <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -106,42 +117,43 @@
             </div>
       </section>
       <section>
-          <div class="container">
-              <div class="row border-menu">
-                  <div class="mx-auto">
-                      <ul class="menu_additional d-flex">
-                          <li><a href="#">Все</a><img src="img/slash.png"></li>
-                          <li><a href="#">Серьги</a><img src="img/slash.png"></li>
-                          <li><a href="#">Браслеты</a><img src="img/slash.png"></li>
-                          <li><a href="#">Ожерелья</a><img src="img/slash.png"></li>
-                          <li><a href="#">Броши</a><img src="img/slash.png"></li>
-                          <li><a href="#">Для волос</a>
-                         
-                      </ul>
-                  </div>
-              </div>
+          
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb"  style="font-size: 23px;">
+                      <li id="all" class="breadcrumb-item active"><a href="#">Все</a></li>
+                      <li id="earring"  class="breadcrumb-item"><a href="#">Серьги</a></li>
+                      <li id="braslet" class="breadcrumb-item"><a href="#">Браслеты</a></li>
+                      <li id="necklace" class="breadcrumb-item"><a href="#">Ожерелья</a></li>
+                      <li id="brooch" class="breadcrumb-item"><a href="#">Броши</a></li>
+                      <li id="hear" class="breadcrumb-item"><a href="#">Для волос</a></li>
+                    </ol>
+                  </nav>
+                </div>
+              
               <div class="masonry">
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/1.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/3.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/4.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/9.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/6.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/7.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/5.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/10.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/11.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/12.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/13.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/14.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/15.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/16.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/17.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/18.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/19.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/20.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/21.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/22.png" class="img-fluid" alt=""></div></a>
-                  <div class="item"><a href="projects.html"><img src="img/juvelir/23.png" class="img-fluid" alt=""></div></a>
+                  <div id="one" class="item earring"><a href="#" ><img src="img/juvelir/1.png" onclick="openModal('1')" class="img-fluid"  alt=""></div></a>
+                  <div class="item hear"><a href="#" ><img src="img/juvelir/3.png" onclick="openModal('3')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg"  alt=""></div></a>
+                  <div class="item earring"><a href="#" ><img src="img/juvelir/4.png" onclick="openModal('4')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg"  alt=""></div></a>
+                  <div class="item earring"><a href="#"><img src="img/juvelir/9.png" onclick="openModal('9')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/6.png" onclick="openModal('6')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/7.png" onclick="openModal('7')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/5.png" onclick="openModal('5')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item earring"><a href="#"><img src="img/juvelir/10.png" onclick="openModal('10')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/11.png" onclick="openModal('11')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/12.png" onclick="openModal('12')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item braslet"><a href="#"><img src="img/juvelir/13.png" onclick="openModal('13')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item braslet"><a href="#"><img src="img/juvelir/14.png" onclick="openModal('14')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/15.png" onclick="openModal('15')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/16.png" onclick="openModal('16')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/17.png" onclick="openModal('17')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item braslet"><a href="#"><img src="img/juvelir/18.png" onclick="openModal('18')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/19.png" onclick="openModal('19')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item necklace"><a href="#"><img src="img/juvelir/20.png" onclick="openModal('20')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/21.png" onclick="openModal('21')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/22.png" onclick="openModal('22')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
+                  <div class="item hear"><a href="#"><img src="img/juvelir/23.png" onclick="openModal('23')" class="img-fluid" data-toggle="modal" data-target=".bd-example-modal-lg" alt=""></div></a>
               </div>
           </div>
       </section>
@@ -157,7 +169,7 @@
                       <i class="fa fa-pinterest"></i>
                       <i class="fa fa-instagram"></i>
               </div>
-              <p class="text-center">2012-2019 / Авторские украшнения</p>
+              <p class="text-center">2012-2020 / Авторские украшнения</p>
           </div>
       </footer>  
       <!--==============SCRIPTS==============-->
@@ -168,11 +180,63 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <script src="js/humburger_js/main.js"></script>
       <script src="js//humburger_js/hamburger.js"></script>
+      <script src="js/modalProducts.js"></script>
       <script>
       $('.carousel').carousel({
           interval: 5000 
       })
       </script>
-    
+      <script>
+        $('#earring').click(function(){
+          $('.braslet').hide();
+          $('.necklace').hide();
+          $('.brooch').hide();
+          $('.hear').hide();
+          $('.earring').show();
+        });
+        $('#braslet').click(function(){
+          $('.earring').hide();
+          $('.necklace').hide();
+          $('.brooch').hide();
+          $('.hear').hide();
+          $('.braslet').show();
+        });
+        $('#necklace').click(function(){
+          $('.earring').hide();
+          $('.braslet').hide();
+          $('.brooch').hide();
+          $('.hear').hide();
+          $('.necklace').show();
+        });
+        $('#brooch').click(function(){
+          $('.earring').hide();
+          $('.braslet').hide();
+          $('.necklace').hide();
+          $('.hear').hide();
+          $('.brooch').show();
+        });
+        $('#hear').click(function(){
+          $('.earring').hide();
+          $('.braslet').hide();
+          $('.necklace').hide();
+          $('.brooch').hide();
+          $('.hear').show();
+        });
+        $('#all').click(function(){
+          $('.earring').show();
+          $('.braslet').show();
+          $('.necklace').show();
+          $('.brooch').show();
+          $('.hear').show();
+        });
+      </script>
+      <!--<script>
+        $('#one').click(function(){
+          jQuery.noConflict(); 
+          $('#modalTitle').html('<h5 class="modal-title" id="modalTitle">Получилось!!!!</h5>');        
+          $('#exampleModal').modal('show');
+
+        });     
+      </script>-->
   </body>
 </html>

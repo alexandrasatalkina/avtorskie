@@ -498,7 +498,7 @@ input[type="range"]::-ms-fill-upper {
 }
 /* Section BLOG */
 .heading-section {
-    background: url(../img/news/base.png);
+    background: url(../img/projects/heading_project.png);
     background-size: 100% 100%;
 }
 
